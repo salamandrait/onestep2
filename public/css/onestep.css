@@ -1,0 +1,318 @@
+
+    input[type="file"]#formato {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+    }
+
+    input[type="file"]#imagen {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+      }
+   
+    input[type="file"]#imagen1 {
+     width: 0.1px;
+     height: 0.1px;
+     opacity: 0;
+     overflow: hidden;
+     position: absolute;
+     z-index: -1;
+     }
+   
+   
+     input[type="file"]#imagen2 {
+       width: 0.1px;
+       height: 0.1px;
+       opacity: 0;
+       overflow: hidden;
+       position: absolute;
+       z-index: -1;
+       }
+
+       input[type="file"]#imagena {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+        }       
+
+      label[for="imagen"] {
+        font-size: 14px;
+        font-weight: 480;
+        color: #fff;
+        background-color: #106BA0;
+        display: inline-block;
+        transition: all .5s;
+        cursor: pointer;
+        padding: 3px 45px !important;
+        text-transform: uppercase;
+        width: fit-content;
+        text-align: center;
+    }
+
+    label[for="formato"] {
+      font-size: 14px;
+      font-weight: 500;
+      color: #fff;
+      background-color: #106BA0;
+      display: inline-block;
+      transition: all .5s;
+      cursor: pointer;
+      padding: 5px 70px !important;
+      text-transform: uppercase;
+      width: fit-content;
+      text-align: center;
+  }
+
+    
+    label[for="imagena"] {
+      font-size: 14px;
+      font-weight: 500;
+      color: #fff;
+      background-color: #106BA0;
+      display: inline-block;
+      transition: all .5s;
+      cursor: pointer;
+      padding: 3px 60px !important;
+      text-transform: uppercase;
+      width: fit-content;
+      text-align: center;
+  }
+    
+
+    label[for="file1"] {
+      font-size: 14px;
+      font-weight: 200;
+      color: #fff;
+      background-color: #106BA0;
+      display: inline-block;
+      transition: all .5s;
+      cursor: pointer;
+      padding: 3px 5px !important;
+      text-transform: uppercase;
+      width: fit-content;
+      text-align: center;
+      }
+   
+    label[for="imagen1"] {
+     font-size: 14px;
+     font-weight: 400;
+     color: #fff;
+     background-color: #106BA0;
+     display: inline-block;
+     transition: all .5s;
+     cursor: pointer;
+     padding: 3px 40px !important;
+     text-transform: uppercase;
+     width: fit-content;
+     text-align: center;
+    }
+   
+  label[for="imagen2"] {
+       font-size: 14px;
+       font-weight: 400;
+       color: #fff;
+       background-color: #106BA0;
+       display: inline-block;
+       transition: all .5s;
+       cursor: pointer;
+       padding: 3px 200px !important;
+       text-transform: uppercase;
+       width: fit-content;
+       text-align: center;
+  }
+
+  .switchBtn {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+}
+.switchBtn input {display:none;}
+.slide {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding: 0px;
+    color: #fff;
+}
+.slide:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 70px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slide {
+    background-color: #8CE196;
+    padding-left: 40px;
+}
+
+input:focus + .slide {
+    box-shadow: 0 0 1px #01aeed;
+}
+
+input:checked + .slide:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    left: -20px;
+}
+
+.slide.round {
+  border-radius: 34px;
+}
+.slide.round:before {
+  border-radius: 60%;
+}
+
+.widget-box {
+  background: none repeat scroll 0 0 #FFF;
+  border-left: 1px solid #CDCDCD;
+  border-top: 1px solid #CDCDCD;
+  border-right: 1px solid #CDCDCD;
+  clear: both;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.widget-title{
+  background: #e8ecee;
+  border-bottom: 1px solid #CDCDCD;
+  height: 36px;
+}
+
+.error_ex h1 {
+  font-size: 140px;
+  font-weight: bold;
+  padding: 50px 0;
+  color: #28B779;
+}
+
+
+.widget-content {
+  padding: 15px;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+widget-title span.icon {
+  padding: 9px 10px 7px 11px;
+  float: left;
+  border-right: 1px solid #dadada;
+}
+
+.widget-title h5 {
+  color: #666;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px;
+  line-height: 12px;
+  margin: 0;
+}
+
+/* modal-content */
+.mcr {
+  border-radius: 5px;
+}
+
+/* modal-footer */
+.mfcp {
+  padding: 10px;
+}
+
+/* modal header */
+.mhcp {
+  padding: 10px;
+  }
+
+  input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+  }
+
+  .chosen-container-single{
+    width: 100% !important;
+  }
+  .no-padlr{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .no-padl{
+    padding-left: 5px;
+  }
+
+  .no-padr{
+    padding-right: 5px;
+  }
+
+  .no-pad0lr{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .no-pad0l{
+    padding-left: 0px;
+  }
+
+  .no-pad0r{
+    padding-right: 0px;
+  }
+
+  .btn-smm{
+    width: 9%;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 5px 5px;
+    margin:6px 0px;
+  }
+.input_tab{
+  height: 26px;
+}
+
+.no-ts{
+  text-shadow: none;
+}
+.liheader{
+  float:left; width: 33.33333%; padding: 5px;
+}
+.aheader{
+  display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4);
+}
+
+.spanheader{
+  display:block; width: 80%; float: left; height: 7px;
+}
+.spanheader2{
+  display:block; width: 80%; float: left; height: 20px; background: #f4f5f7;
+}
+.spanheader3{
+  display:block; width: 20%; float: left; height: 20px; background: #f9fafc;
+}
+.spanheader4{
+  display:block; width: 20%; float: left; height: 20px; background: #222d32;
+}
+.spanheader5{
+  display:block; width: 20%; float: left; height: 7px;
+}
