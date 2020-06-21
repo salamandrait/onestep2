@@ -1,0 +1,6 @@
+#incluir restriccion en compras y ventas para seleccionar el deposito de proceso
+*parametros
+  -restringido para compras
+  -restringido para Ventas
+# Configurar Color de las Barras segun el tipo de Documento: ejemplo factura o pedido.
+#Verificar Configuracion de Vista de Inventario disponible en Articulos.
